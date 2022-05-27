@@ -13,3 +13,11 @@
 4. Aplikacija ce se pokrenuti na localhost:8080, port se moze promijeniti u application.properties (server.port)
 
 5. URL dohvaca sve iz tablice products: http://localhost:8080/api/products
+6. Spremanje se radi POST requestom na http://localhost:8080/api/products/save, primjer bodyja:
+{
+	"code": "0000000001",
+	"description": "OPIS",
+	"name": "Banane",
+	"isAvailable": true,
+	"priceHrk": 12.99
+}
